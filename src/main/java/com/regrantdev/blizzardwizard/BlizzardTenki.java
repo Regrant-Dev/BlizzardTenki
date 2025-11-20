@@ -412,8 +412,8 @@ public class BlizzardTenki {
             case 1 -> 0.4f;   // Light Flurry - slow accumulation (40 blocks/sec)
             case 2 -> 0.7f;   // Light Snow (70 blocks/sec)
             case 3 -> 1.0f;   // Moderate Blizzard - baseline (100 blocks/sec)
-            case 4 -> 4.0f;   // Heavy Blizzard - fast (400 blocks * 5x/sec = 2000/sec)
-            case 5 -> 6.0f;   // Severe Whiteout - very fast! (600 blocks * 10x/sec = 6000/sec)
+            case 4 -> 1.33f;  // Heavy Blizzard - fast (133 blocks/sec)
+            case 5 -> 2.0f;   // Severe Whiteout - very fast! (200 blocks/sec)
             default -> 1.0f;  // Default to moderate
         };
     }
