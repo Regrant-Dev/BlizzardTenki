@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:docs.neoforged.net)",
+      "Bash(unzip:*)",
+      "WebFetch(domain:minecraft.wiki)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

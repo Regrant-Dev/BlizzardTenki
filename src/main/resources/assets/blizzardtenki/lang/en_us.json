@@ -1,0 +1,11 @@
+  {
+    "itemGroup.blizzardtenki": "Blizzard Tenki",
+    "block.blizzardtenki.blizzaura": "BlizzAura",
+    "blizzardtenki.configuration.title": "BlizzardTenki Configs",
+    "blizzardtenki.configuration.section.blizzardtenki.common.toml": "BlizzardTenki Configs",
+    "blizzardtenki.configuration.section.blizzardtenki.common.toml.title": "BlizzardTenki Configs",
+    "blizzardtenki.configuration.items": "Item List",
+    "blizzardtenki.configuration.logDirtBlock": "Log Dirt Block",
+    "blizzardtenki.configuration.magicNumberIntroduction": "Magic Number Text",
+    "blizzardtenki.configuration.magicNumber": "Magic Number"
+  }

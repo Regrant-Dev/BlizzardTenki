@@ -1,0 +1,93 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - mods",
+        "order": 0
+      },
+      "projectName": "mods",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@E:\\Software_Development\\mods\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@E:\\Software_Development\\mods\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dblizzardtenki%%E:\\Software_Development\\mods\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - mods",
+        "order": 1
+      },
+      "projectName": "mods",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@E:\\Software_Development\\mods\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@E:\\Software_Development\\mods\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dblizzardtenki%%E:\\Software_Development\\mods\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - mods",
+        "order": 2
+      },
+      "projectName": "mods",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@E:\\Software_Development\\mods\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@E:\\Software_Development\\mods\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dblizzardtenki%%E:\\Software_Development\\mods\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - mods",
+        "order": 3
+      },
+      "projectName": "mods",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@E:\\Software_Development\\mods\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@E:\\Software_Development\\mods\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dblizzardtenki%%E:\\Software_Development\\mods\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

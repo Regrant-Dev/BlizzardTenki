@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SSS",
+    "SIS",
+    "SSS"
+  ],
+  "key": {
+    "S": "minecraft:snow_block",
+    "I": "minecraft:ice"
+  },
+  "result": {
+    "count": 1,
+    "id": "blizzardtenki:blizzaura"
+  }
+}
